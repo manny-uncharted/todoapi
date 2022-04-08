@@ -1,0 +1,12 @@
+admin username: manny
+admin password: omoebun52
+
+
+# class TodoList(generics.ListAPIView):
+    # """ListAPIView requires two mandatory attributes, serializer_class and queryset"""
+
+    # serializer_class = TodoSerializer
+
+    # def get_queryset(self):
+    #     user = self.request.user
+    #     return Todo.objects.filter(user=user).order_by('-created')
